@@ -6,7 +6,6 @@
 	background-color: white;
 	box-shadow: 0 0 3px #bbb;
 
-	margin: auto;
 	transition: box-shadow 0.3s;
 
 	&:hover {
@@ -43,6 +42,7 @@
 	}
 
 	@media (max-width: 991px) {
+		margin: auto;
 		width: 90%;
 		.flag {
 			aspect-ratio: 16 / 9;

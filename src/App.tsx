@@ -38,7 +38,8 @@ function App() {
 
 	const selectCountry = (country: CountryInterface | undefined): void => {
 		setSelectedCountry(country);
-		setCountries(filteredCountries? filteredCountries: countries);
+		// setCountries(filteredCountries? filteredCountries: countries);
+		setCountries(countries);
 	};
 	const searchCountry = (name: string): void => {
 		const countries = filteredCountries

@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
 
+
     
     
     @media (max-width: 991px) {
@@ -13,11 +14,9 @@
     }
     
     @media (min-width: 992px){
-        // width: 90%;
-        gap: 3em;
+        column-gap: 4%;
+        row-gap: 3.2em;
     }
     @media (min-width: 1200px) {
-        // width: 94%;
-        gap: 3em;
     }
 }
