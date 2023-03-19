@@ -1,0 +1,68 @@
+.toolBar {
+	// border: 2px solid;
+	background-color: white;
+	padding: 1em 0;
+	box-shadow: 0 0 5px #ddd;
+
+	& > * {
+		// border: 1px solid red;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 92%;
+		margin: auto;
+	}
+	.logo {
+		font-size: 1.2rem;
+	}
+
+	.themeButton {
+        color: var(--dark-gray);
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		column-gap: 0.3em;
+		font-weight: 600;
+		transition: transform 0.8s;
+		& > * {
+			// border: 1px solid green
+		}
+
+		.modeIcon {
+			display: flex;
+		}
+
+		&:hover {
+			color: var(--dark-blue);
+		}
+		&:active {
+			transform: scale(0);
+		}
+	}
+
+	@media (min-width: 992px) {
+		padding: 1.5em 0;
+		.logo {
+			font-size: 1.8rem;
+		}
+		.themeButton {
+			font-size: 1.1rem;
+		}
+	}
+}
+
+.dark {
+    background-color: var(--dark-blue);
+    color: white;
+    box-shadow: 0 0 5px #444;
+
+    .themeButton {
+        color: #ccc;
+        &:hover {
+			color: white;
+		}
+    }
+}

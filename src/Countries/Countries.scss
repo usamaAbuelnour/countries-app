@@ -1,0 +1,23 @@
+.countries {
+    // border: 1px solid red;
+    margin: 230px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+    @media (max-width: 991px) {
+        flex-direction: column;
+        row-gap: 2em;
+        width: 90%;
+    }
+    
+    @media (min-width: 992px){
+        // width: 90%;
+        gap: 3em;
+    }
+    @media (min-width: 1200px) {
+        // width: 94%;
+        gap: 3em;
+    }
+}

@@ -1,0 +1,28 @@
+.app {
+	color: var(--very-dark-blue);
+
+	background-color: inherit;
+	// border: 3px solid red;
+	.header {
+		background-color: var(--very-light-gray);
+		// border: 1px solid red;
+		position: fixed;
+		width: 100%;
+		inset: 0 0 auto 0;
+	}
+
+	.container {
+		// border: 2px solid darkcyan;
+		height: 30vh;
+		width: 93%;
+		margin: auto;
+	}
+}
+
+.dark {
+	color: white;
+
+	.header {
+		background-color: var(--very-dark-blue-bg);
+	}
+}
